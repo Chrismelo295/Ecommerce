@@ -80,6 +80,28 @@ body, html {
 
 /* Hero Code  */
 
+
+/* Products Page */
+.products_column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.products_column img {
+  max-width: 50%;
+  min-width: 50%;
+
+} 
+/* Products Page */
+
+
 /* Contact Page */
 form {
     padding-top:100px;

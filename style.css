@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+/* Nav Bar */
+*{
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  nav{
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+  }
+  nav img{
+    height: 50px;
+  }
+  
+  nav ul {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+  }
+/* Nav Bar */
+
+
+/* Hero Code */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    font-family: sans-serif;
+  }
+
+    .hero-image{
+        position: relative;
+        height: 500px; 
+        overflow: hidden;
+        background: url("wallpic.jpg") no-repeat center;
+        background-size: cover;
+      }
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+    }  
+    .home_content{
+        position: absolute;
+        top: 80%;
+        text-align: center;
+        color: black;
+        font-weight: 500;
+        text-transform: uppercase;
+    }  
+  
+  .hero{
+    width: 100vw;
+    height: 100%;
+    background-image: url("urbanstreet.jpg");
+    background-attachment: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Hero Code  */
+
+/* Contact Page */
+form {
+    padding-top:100px;
+    text-align: center;
+  }
+  input {
+    font-size: 1em;
+  }
+  textarea {
+    min-height: 300px;
+    width: 80%;
+    opacity: .5;
+  }
+  /* Contact Page */  
+
+  /* Product Page */
+  .Products_container{
+    padding: 50px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center; 
+  
+  }
+  
+  .Products_container img {
+    max-width: 20%;
+    min-width: 20%;
+  
+  } 
+  
+  .Products_container p{
+    font-size: .8em;
+    background-color: rgb(211, 211, 211,.5);
+    border-radius: 10px;
+  }
+  /* Product Page */
+
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100vw;
+    bottom: 0px;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+    position: fixed;
+  
+  }
+  
+  footer ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    list-style: none;
+    padding: 0px;
+  }
+  /* Footer */   

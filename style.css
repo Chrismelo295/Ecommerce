@@ -84,7 +84,7 @@ body, html {
 /* Products Page */
 .products_column {
   float: left;
-  width: 25%;
+  width: 30%;
   padding: 15px;
 }
 
@@ -106,6 +106,7 @@ body, html {
 form {
     padding-top:100px;
     text-align: center;
+    color: black;
   }
   input {
     font-size: 1em;
@@ -135,7 +136,7 @@ form {
   .Products_container p{
     font-size: .8em;
     background-color: rgb(211, 211, 211,.5);
-    border-radius: 10px;
+    border-radius: 5px;
   }
   /* Product Page */
 
@@ -164,3 +165,42 @@ footer{
     padding: 0px;
   }
   /* Footer */   
+  @media only screen and (min-width:700px){
+  
+
+    nav {
+      font-size: 1.5em;
+    }
+  
+    nav img {
+      height: 60px;
+    }
+  
+    footer {
+      height: 50px;
+      font-size: 1em;
+    }
+    form {
+      font-size:1.5em;
+    }
+    .hero-image{
+      background-size: 100%;
+      display: flex;
+    }
+    .hero-image h1 {
+      font-size: 1.5em;
+
+    }
+  
+    .HomeContent p{
+      size: 1.5em;
+
+    }
+    .HomeContent {
+      display: flex;
+
+    }
+    .products_column img{
+      display: flex;
+    }
+}
